@@ -59,6 +59,8 @@ body {
 
 .ai {
   background: grey;
+  /* text-align: right; */
+  
 }
 
 .chat {
@@ -145,4 +147,10 @@ button {
 form img {
   width: 30px;
   height: 30px;
+}
+
+.false>.chat{
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
 }
